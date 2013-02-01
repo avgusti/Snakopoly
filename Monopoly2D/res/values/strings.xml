@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Monopoly2D</string>
+    <string name="sell">Sell</string>
+    <string name="trade">Trade</string>
+    <string name="title">MoNoPoLy</string>
+    <string name="newgame">New Game</string>
+    <string name="resume">Resume</string>
+    <string name="options">Options</string>
+    <string name="exit">Exit</string>
+    <string name="buy">Buy</string>
+    <string name="returnToGame">Return to game</string>
+    <string name="reset">Reset to default</string>
+    <string name="help">Help</string>
+    <string name="exitprison">Exit prison</string>
+    <string name="cardsleft">  cards left</string>
+    
+    <string name="playerscount"># of players</string>
+    <string-array name="playerscountlist">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+        <string name="theme_filename">Loading {1} {2} of {3}</string>
+</resources>

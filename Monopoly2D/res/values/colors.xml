@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="player1">#FFff9900</color>
+    <color name="player2">#ff0066ff</color>
+    <color name="player3">#ff33cc00</color>
+    <color name="player4">#ffff3300</color>
+    
+    <color name="set1">#FFFF0000</color>
+    <color name="set2">#FF00FF00</color>
+    <color name="set3">#FF0000FF</color>
+    <color name="set4">#FFFFFF00</color>
+    <color name="set5">#FFFF00FF</color>
+    <color name="set6">#FF00FFFF</color>
+    <color name="set7">#FFFF9900</color>
+    <color name="set8">#FF3399FF</color>
+    <color name="set9">#FF6600CC</color>
+    <color name="set10">#FF009900</color>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/board" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:baselineAligned="false"
+        android:minHeight="30dp" >
+
+        <TextView
+            android:id="@+id/sellt_build"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Build/Sell  "
+            android:textColor="@color/set4" />
+        
+        <TextView
+            android:id="@+id/tradet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Trade  "
+            android:textColor="@color/set4" />
+
+        <TextView
+            android:id="@+id/infot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:text="Info  "
+            android:textColor="@color/set4" />
+
+        <LinearLayout
+            android:id="@+id/dices"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/dice2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/dice1" />
+
+            <ImageView
+                android:id="@+id/dice1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/dice1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/CurrPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/go"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Go"
+            android:textColor="@color/set6" />
+
+        <ImageView
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@android:drawable/ic_menu_revert" />
+     
+    </LinearLayout>
+
+</LinearLayout>
